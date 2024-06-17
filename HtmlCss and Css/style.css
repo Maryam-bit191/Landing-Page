@@ -1,0 +1,68 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+  background-color: rgb(43, 202, 226);
+  height:60px;
+  box-sizing: border-box;
+}
+.footercontainer{
+  width:10%;
+  display: flex;
+  justify-content: right;
+}
+.footernav{
+  background-color: rgb(255, 255, 255);  
+  font-family: sans-serif;
+         align-items: center;
+         display: flex;
+         justify-content:  space-around;
+         font-size: 10px;
+         padding: 10px 20px;
+         text-decoration: none;
+
+}
+body{
+    height:200vh;
+}
+ .bg
+{
+  background-image: url( 'logo.jpg');
+  height: 900px;
+  background-size: cover;
+
+} 
+
+
+.nav1 a{
+  text-decoration: none;
+  color: beige;
+  padding: 10px 10px;
+  background-color: rgb(210, 141, 30);
+}
+.navbar{
+  width: 100%;
+  color: black;
+  padding: 30px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+   
+li{
+  display: inline;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+
+section{
+  min-height: 400vh;
+  display: flex;
+  justify-content: centre;
+ 
+}
